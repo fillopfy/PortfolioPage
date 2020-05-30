@@ -74,24 +74,49 @@ nav > ul > li:hover{
 
 #projects{
 	background: #131c2b;
-	/*display: grid;
-	grid-template-rows: 100px 100px;
-	grid-template-columns: 100px 100px 100px;
-	grid-gap:20px;*/
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: :30px;
+	grid-row-gap: 60px;
+	margin:auto;
 }
 
 #projects > div{
-	display: grid;
-	grid-template-rows: 100px 100px;
-	grid-template-columns: 100px 100px 100px;
-	grid-gap:20px;
+	display: block;
+	margin:auto;
+	padding: auto;
+	
+}
 
+#projects > div > a{
+	display: block;
+	margin: auto;
+	padding: 40px;
+}
+
+#projects > div > a > img{
+	border:1px solid white;
+}
+
+.project-tile > h2{
+	text-align: center;
+	color: white;
 }
 
 
+.project-header{
+	background: #241c1c;
+	color:white;
+	font-size: 30px;
+	padding: 50px;
+	text-align: center;
+}
 
-
-
+.balance{
+	background: #131c2b;
+	height: 100px;
+}
 
 
 
