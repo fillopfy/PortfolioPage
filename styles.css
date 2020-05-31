@@ -118,20 +118,50 @@ nav > ul > li:hover{
 	height: 100px;
 }
 
+#profile{
+	background: #f05656;
+}
 
+#profile-link{
+	
+	display: flex;
+	justify-content: center;
+}
 
+#profile-link > a{
+	margin:20px;
+	display: block;
+	padding: 20px;
+}
 
+#profile-link > a > img{
 
+	border-radius: 50%;
+}
 
+#profile-desc{
+	text-align: center;
+	color:black;
+}
 
+#profile-desc > h1{
+	font-size: 70px;
+}
 
-
-
-
+#profile-desc > h3{
+	font-size: 25px;
+}
 
 
 footer{
-	height:200px;
+	height:100px;
 	background: #131c2b;
 	color:white;
+	text-align: center;
+	margin:auto;
+	font-size: 20px;
+}
+
+footer > span{
+	color:#fc0339;
 }
